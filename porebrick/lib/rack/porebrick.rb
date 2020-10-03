@@ -1,6 +1,10 @@
-require "porebrick/version"
+# frozen_string_literal: true
+
+require 'porebrick/version'
 
 module Porebrick
-  class Error < StandardError; end
-  # Your code goes here...
+  module Handler
+    class Porebrick
+    end
+  end
 end
